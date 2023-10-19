@@ -1,0 +1,9 @@
+unicomp6.unicomp.net - - [01/Jul/1995:00:00:06 -0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3985
+unicomp6.unicomp.net - - [01/Jul/1995:00:00:06 -0400] "GET /shuttle/countdown/ HTTP/1.0" 200 3385
+unicomp6.unicomp.net - - [01/Jul/1995:00:00:06 -0400] "GET /shuttle/liftoff/ HTTP/1.0" 300 3985
+unicomp6.unicomp.net - - [01/Jul/1995:00:00:06 -0400] "GET /shuttle/liftoff/ HTTP/1.0" 200 5985
+vunicomp6.unicomp.net - - [01/Jul/1995:00:00:06 -0400] "GET /shuttle/liftoff/ HTTP/1.0" 200 6985
+unicomp6.unicomp.net - - [01/Jul/1995:00:00:06 -0400] "GET /shuttle/liftoff/ HTTP/1.0" 200 7985
+
+
+
