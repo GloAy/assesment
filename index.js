@@ -1,7 +1,6 @@
 const fs = require("fs");
 
 function processFile() {
-  // Initialize variables to store the counts and total bytes
   let countLargeResponses = 0;
   let totalBytesLargeResponses = 0;
 
@@ -9,7 +8,6 @@ function processFile() {
   const logData = fs.readFileSync("log.txt", "utf8").toString().split("\n");
   console.log("what is this", logData);
 
-  // Iterate through each line in the log file
   for (const line of logData) {
     //console.log(line, "line");
     const match = line.match(/"GET .*?" (\d+) (\d+)/);
@@ -47,7 +45,4 @@ function processFile() {
   //   );
 }
 
-// Call the function to process the file
 processFile();
-
-console.log("Processed the log file and wrote results to output.txt.");
